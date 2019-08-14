@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './OrderSummary.css';
-import Aux from '../../hoc/Aux';
+import Aux from '../../hoc/Ax';
 import Button from '../../components/UI/Button/Button';
 
 const OrderSummary =(props)=> {
