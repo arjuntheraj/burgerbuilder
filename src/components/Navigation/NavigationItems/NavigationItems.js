@@ -1,12 +1,11 @@
 import React  from 'react';
 import './NavigationItems.css';
+import NavigationItem from './NavigationItem/NavigationItem';
 
 const NavigationItems =()=>(
 
   <ul>
-    <li><a href="/">A link</a></li>
-    <li><a href="/">B link</a></li>
-    <li><a href="/">C link</a></li>
+    <NavigationItem></NavigationItem>
   </ul>
 )
 export default NavigationItems;
